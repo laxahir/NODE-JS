@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+</head>
+
+<body>
+    <h1>update data</h1>
+    <div class="product-card">
+        <img src="<%=item.image %>" alt=" Product 1">
+        <div class="product-info">
+            <h3>
+                <%= item.title %>
+            </h3>
+            <p>
+                <%= item.description %>
+            </p>
+            <div class="price">
+                <%= item.price %>
+            </div>
+            <a href="/" class="btn">Home</a>
+        </div>
+    </div>
+</body>
+
+</html>
